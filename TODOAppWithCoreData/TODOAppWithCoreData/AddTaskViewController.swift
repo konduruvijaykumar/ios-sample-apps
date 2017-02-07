@@ -3,7 +3,7 @@
 //  TODOAppWithCoreData
 //
 //  Created by Vijay Konduru on 04/02/17.
-//  Copyright © 2017 CSC. All rights reserved.
+//  Copyright © 2017 PJay. All rights reserved.
 //
 
 // http://stackoverflow.com/questions/24022479/how-would-i-create-a-uialertview-in-swift
