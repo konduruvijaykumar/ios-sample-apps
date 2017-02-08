@@ -14,6 +14,7 @@
 		419BC8891E4B596300C5E998 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 419BC8871E4B596300C5E998 /* LaunchScreen.storyboard */; };
 		419BC8941E4B596300C5E998 /* SliderViewAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419BC8931E4B596300C5E998 /* SliderViewAppDemoTests.swift */; };
 		419BC89F1E4B596300C5E998 /* SliderViewAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419BC89E1E4B596300C5E998 /* SliderViewAppDemoUITests.swift */; };
+		419BC8AD1E4B5F1B00C5E998 /* SliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 419BC8AC1E4B5F1B00C5E998 /* SliderViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		419BC89A1E4B596300C5E998 /* SliderViewAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SliderViewAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		419BC89E1E4B596300C5E998 /* SliderViewAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderViewAppDemoUITests.swift; sourceTree = "<group>"; };
 		419BC8A01E4B596300C5E998 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		419BC8AC1E4B5F1B00C5E998 /* SliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SliderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				419BC8851E4B596300C5E998 /* Assets.xcassets */,
 				419BC8871E4B596300C5E998 /* LaunchScreen.storyboard */,
 				419BC88A1E4B596300C5E998 /* Info.plist */,
+				419BC8AC1E4B5F1B00C5E998 /* SliderViewController.swift */,
 			);
 			path = SliderViewAppDemo;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				419BC8AD1E4B5F1B00C5E998 /* SliderViewController.swift in Sources */,
 				419BC8811E4B596300C5E998 /* ViewController.swift in Sources */,
 				419BC87F1E4B596300C5E998 /* AppDelegate.swift in Sources */,
 			);

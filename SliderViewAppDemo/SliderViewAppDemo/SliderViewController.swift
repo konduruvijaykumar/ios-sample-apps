@@ -2,8 +2,8 @@
 //  SliderViewController.swift
 //  SliderViewAppDemo
 //
-//  Created by lananthanara on 05/02/17.
-//  Copyright © 2017 CSC. All rights reserved.
+//  Created by Vijay Konduru on 05/02/17.
+//  Copyright © 2017 PJay. All rights reserved.
 //
 
 import UIKit
