@@ -2,7 +2,4 @@
 sample readme
 
 
-
-<a href="https://icons8.com" target="_blank">Icon pack by Icons8</a>
-
-[Icon pack by Icons8](https://icons8.com" target="_blank)
+<a href="https://icons8.com">Icon pack by Icons8</a>
