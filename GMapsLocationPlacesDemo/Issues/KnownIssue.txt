@@ -1,0 +1,5 @@
+I am facing the issue mentioned in the image KnownIssue. I don’t get any error stack to find out the issue, EXC_BAD_ACCESS
+1) This only occurs when we execute the app via Xcode on a connected iPhone. When we stop the app from Xcode and run app on phone it works fine.
+2) This does not occur on simulator or phone.
+
+If any one knows the solution, please let me know.
