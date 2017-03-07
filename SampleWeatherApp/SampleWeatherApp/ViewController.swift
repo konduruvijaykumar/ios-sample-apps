@@ -42,6 +42,9 @@ class ViewController: UIViewController, UISearchBarDelegate {
         
         let urlRequest = URLRequest(url: URL(string: formattedUrl)!);
         
+        // Hiding keyboard
+        searchBar.resignFirstResponder();
+        
         let task = URLSession.shared.dataTask(with: urlRequest) { (data, response, error) in
             if error == nil {
                 do {
@@ -98,6 +101,19 @@ class ViewController: UIViewController, UISearchBarDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.searchBar.resignFirstResponder();
+    }
+    
+    // Not working as desired, keyboard not getting hidden
+    /**
+     func searchBarTextDidEndEditing(_ searchBar: UISearchBar) {
+     //self.view.endEditing(true);
+     //searchBar.endEditing(true);
+     searchBar.resignFirstResponder();
+     }
+     */
 
 
 }
