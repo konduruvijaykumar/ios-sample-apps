@@ -34,12 +34,12 @@
                                 <items>
                                     <navigationItem title="WebView" id="Iht-xy-WgV">
                                         <leftBarButtonItems>
-                                            <barButtonItem systemItem="rewind" id="zLJ-Se-2zf">
+                                            <barButtonItem image="Back Filled-24" id="zLJ-Se-2zf">
                                                 <connections>
                                                     <action selector="backBarButtonClicked:" destination="BYZ-38-t0r" id="vLU-im-TCh"/>
                                                 </connections>
                                             </barButtonItem>
-                                            <barButtonItem systemItem="fastForward" id="OjV-3O-GgQ">
+                                            <barButtonItem image="Forward Filled-24" id="OjV-3O-GgQ">
                                                 <connections>
                                                     <action selector="forwardBarButtonClicked:" destination="BYZ-38-t0r" id="Iby-VY-1Yf"/>
                                                 </connections>
@@ -78,4 +78,8 @@
             <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Back Filled-24" width="24" height="24"/>
+        <image name="Forward Filled-24" width="24" height="24"/>
+    </resources>
 </document>
